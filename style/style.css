@@ -4,16 +4,64 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+/* banner */
+.banner{
+   align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 65px;   
+}
+.banner-title{
+    font-weight: 800;
+}
+/* button */
+.two-btn{
+    margin-top: 37px;
+    margin-bottom: 152px;
+    text-align: center;
+}
 
-
-
-
-/* shared style */
-.btn-primary{
+.btn-one{
     background-color: #4E47FF;
     font-weight: bold;
     color: white;
-    padding: 18px 35px;
-    border-radius: 5px;
+    height: 48px;
+    width: 132px;
+    padding: 12px 36px;
+    border-radius: 15px;
     border: none;
+    cursor: pointer;
+    
+    
+}
+.btn-two{
+    background-color: #4E47FF;
+    font-weight: bold;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    cursor: pointer;}
+    
+/* nav styl */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ margin: 0px 150px;
+}
+.logo{
+    
+    font-size: 34px;
+    color: #4E47FF;
+}
+.bg-img{
+    background-image: url(../ui/abstract-elegant-white-and-gray-background-with-diagonal-stripes-lines-vector.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    height: 698px;
+    width: 1440px;
 }
